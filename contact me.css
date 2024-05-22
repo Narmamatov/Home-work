@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  width: 400px;
+  height: 200px;
+  font-size: 40px;
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
+.click :hover {
+  animation: wait;
+  transform: scale(1);
+}
